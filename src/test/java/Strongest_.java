@@ -23,6 +23,17 @@ public class Strongest_ {
         assertThat(strongest.of(new int[]{1})).isEqualTo(0);
     }
 
+    @Test
+    public void given_second_element_greater_or_equal_than_previous_should_return_0() {
+        assertThat(strongest.of(new int[]{2, 2})).isEqualTo(0);
+        assertThat(strongest.of(new int[]{2, 5})).isEqualTo(0);
+    }
+
+    @Test
+    public void given_first_number_negative_should_return_0() {
+        assertThat(strongest.of(new int[]{-1, 0})).isEqualTo(0);
+    }
+
 
 
 }
