@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6aac4f5-23a2-4055-ad35-59b2f2ea1db5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strongest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strongest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Strongest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Strongest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strongest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strongest_.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579686163697</updated>
-      <workItem from="1579686167374" duration="6506000" />
+      <workItem from="1579686167374" duration="6998000" />
     </task>
     <servers />
   </component>
