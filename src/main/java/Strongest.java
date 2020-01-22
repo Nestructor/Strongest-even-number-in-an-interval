@@ -3,14 +3,17 @@ import java.util.*;
 public class Strongest {
 
     public int of(int[] array) {
-        if(array.length == 2 && array[0] < array[1] && array[0] >= 0) {
-            return getStrongest(getIntervalArray(array));
-        }
-        return 0;
+        return verifyConditions(array) ? getStrongest(getIntervalArray(array)) : 0;
+    }
+
+    private boolean verifyConditions(int[] array) {
+        return array.length == 2 &&
+                array[0] < array[1] &&
+                array[0] >= 0;
     }
 
     private int[] getIntervalArray(int[] array) {
-        int[] intervalArray = new int[array[1]-array[0]+1];
+        int[] intervalArray = new int[array[1] - array[0] + 1];
         int j = 0;
         for (int i = array[0]; i <= array[1]; i++) {
             intervalArray[j++] += i;
@@ -28,7 +31,7 @@ public class Strongest {
 
     private int getPossibleStrongest(int elem) {
         int counter = 0;
-        while(elem % 2 == 0) {
+        while (elem % 2 == 0) {
             counter++;
             elem /= 2;
         }
