@@ -24,9 +24,9 @@ public class Strongest_ {
     }
 
     @Test
-    public void given_second_element_greater_or_equal_than_previous_should_return_0() {
+    public void given_second_element_less_or_equal_than_previous_should_return_0() {
         assertThat(strongest.of(new int[]{2, 2})).isEqualTo(0);
-        assertThat(strongest.of(new int[]{2, 5})).isEqualTo(0);
+        assertThat(strongest.of(new int[]{2, 1})).isEqualTo(0);
     }
 
     @Test
@@ -34,6 +34,19 @@ public class Strongest_ {
         assertThat(strongest.of(new int[]{-1, 0})).isEqualTo(0);
     }
 
+    @Test
+    public void given_1_2_should_return_0() {
+        assertThat(strongest.of(new int[]{1, 2})).isEqualTo(2);
+    }
 
+    @Test
+    public void given_5_10_should_return_0() {
+        assertThat(strongest.of(new int[]{5, 10})).isEqualTo(8);
+    }
+
+    @Test
+    public void given_48_56_should_return_0() {
+        assertThat(strongest.of(new int[]{48, 56})).isEqualTo(48);
+    }
 
 }

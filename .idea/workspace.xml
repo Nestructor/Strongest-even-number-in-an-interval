@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a6aac4f5-23a2-4055-ad35-59b2f2ea1db5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Strongest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Strongest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Strongest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strongest_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Strongest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Strongest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Strongest_.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strongest_.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +50,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Strongest_.given_less_or_more_than_two_elements_should_return_0">
-    <configuration name="Strongest_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Strongest_.given_48_56_should_return_0">
+    <configuration name="Strongest_.given_1_2_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Strongest even number in an interval" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Strongest_" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="given_1_2_should_return_0" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strongest_.given_empty_array_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Strongest_.given_48_56_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Strongest even number in an interval" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Strongest_" />
-      <option name="METHOD_NAME" value="given_empty_array_should_return_0" />
+      <option name="METHOD_NAME" value="given_48_56_should_return_0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strongest_.given_5_10_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Strongest even number in an interval" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Strongest_" />
+      <option name="METHOD_NAME" value="given_5_10_should_return_0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,21 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strongest_.given_less_or_more_than_two_elements_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Strongest_.given_second_element_less_or_equal_than_previous_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Strongest even number in an interval" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Strongest_" />
-      <option name="METHOD_NAME" value="given_less_or_more_than_two_elements_should_return_0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Strongest_.given_second_element_greater_or_equal_than_previous_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Strongest even number in an interval" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Strongest_" />
-      <option name="METHOD_NAME" value="given_second_element_greater_or_equal_than_previous_should_return_0" />
+      <option name="METHOD_NAME" value="given_second_element_less_or_equal_than_previous_should_return_0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Strongest_.given_less_or_more_than_two_elements_should_return_0" />
+        <item itemvalue="JUnit.Strongest_.given_48_56_should_return_0" />
+        <item itemvalue="JUnit.Strongest_.given_5_10_should_return_0" />
+        <item itemvalue="JUnit.Strongest_.given_1_2_should_return_0" />
         <item itemvalue="JUnit.Strongest_.given_first_number_negative_should_return_0" />
-        <item itemvalue="JUnit.Strongest_" />
-        <item itemvalue="JUnit.Strongest_.given_second_element_greater_or_equal_than_previous_should_return_0" />
-        <item itemvalue="JUnit.Strongest_.given_empty_array_should_return_0" />
+        <item itemvalue="JUnit.Strongest_.given_second_element_less_or_equal_than_previous_should_return_0" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579686163697</updated>
-      <workItem from="1579686167374" duration="1545000" />
+      <workItem from="1579686167374" duration="5449000" />
     </task>
     <servers />
   </component>
