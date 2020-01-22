@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6aac4f5-23a2-4055-ad35-59b2f2ea1db5" name="Default Changelist" comment="" />
+    <list default="true" id="a6aac4f5-23a2-4055-ad35-59b2f2ea1db5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strongest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strongest_.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +20,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WkGQe9BIFMoFup8PohJgFUEIeg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -38,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Strongest_.given_empty_array_should_return_0">
+  <component name="RunManager" selected="JUnit.Strongest_.given_less_or_more_than_two_elements_should_return_0">
     <configuration name="Strongest_.given_array_with_an_element_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Strongest even number in an interval" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,8 +65,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Strongest_.given_less_or_more_than_two_elements_should_return_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Strongest even number in an interval" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Strongest_" />
+      <option name="METHOD_NAME" value="given_less_or_more_than_two_elements_should_return_0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Strongest_.given_less_or_more_than_two_elements_should_return_0" />
         <item itemvalue="JUnit.Strongest_.given_empty_array_should_return_0" />
         <item itemvalue="JUnit.Strongest_.given_array_with_an_element_should_return_0" />
       </list>
@@ -76,11 +93,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579686163697</updated>
-      <workItem from="1579686167374" duration="510000" />
+      <workItem from="1579686167374" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
